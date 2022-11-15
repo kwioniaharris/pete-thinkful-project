@@ -17,21 +17,22 @@ h3 {
 }
 
 /* Header */
-header {
+.top {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-flow: nowrap;
+
   padding: 10px 10%;
 }
 
 .navbar {
   list-style: none;
-  margin-left: auto;
 }
 
 .navbar li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px
 }
 /* Containers */
 div {
@@ -58,7 +59,13 @@ article div {
   display: flex;
 }
 
+.artist {
+  text-align: left;
+}
+
+
 /* Paragraphs */
+
 p {
   line-height: 1.5;
   font-size: 14px;
